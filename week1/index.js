@@ -136,8 +136,8 @@ let h = f + g;
 // 情境：請依照程式碼告知答案是多少，並在下方用註解方式寫上這五行程式碼做了什麼事
 // 以下程式碼請勿變更
 
-let numberArr1 = [5, 10, 15];
-let numberArr2 = numberArr1;
-numberArr2.push(20);
-numberArr2 = [25, 30, 35];
-console.log(numberArr1, numberArr2);
+let numberArr1 = [5, 10, 15]; // 宣告變數為 numberArr1，並賦值數字型別陣列 [5,10,15]
+let numberArr2 = numberArr1; // 宣告變數為 numberArr2，並參考 numberArr1 記憶體空間 [5,10,15]
+numberArr2.push(20); // 將 numberArr2 數字型別陣列增加一個元素，[5,10,15,20]
+numberArr2 = [25, 30, 35]; // 將 numberArr2 數字型別陣列重新賦值 [25,30,35]
+console.log(numberArr1, numberArr2); // 印出 numberArr1 的值為 [5, 10, 15, 20]， numberArr2 的值為 [25, 30, 35]
