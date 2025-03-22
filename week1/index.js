@@ -74,6 +74,10 @@ const sumNumber = 1;
 let myWater = 2000; // 水壺容量
 myWater -= 500; // 早上喝了 500cc
 
+myWater -= 800;
+myWater += 1000;
+myWater -= 700;
+
 console.log(`Alex 的水壺還有 ${myWater}cc 的水`);
 
 // ### 題目七：情境題：變數計算
