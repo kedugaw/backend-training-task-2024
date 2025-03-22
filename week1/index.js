@@ -37,6 +37,13 @@ console.log(`Alex 買完課程了，他一共剩下 ${AlexBudget} 元`);
 // 請參考資料夾內 q4.webp 圖片
 // 請依照你看到的內容來嘗試設計變數和值（至少 3 個）
 
+const courseName = "14堂組合包方案";
+let coursePrice = 2520;
+const courseNumber = 14;
+const courseMinutes = 50;
+let courseAvgPrice = 180;
+const discount = 0.9;
+
 // ### 題目五：布林值與變數定義，看是否有用對 const, let
 // 情境：Alex 在往健身房的路上，望向城市的風景，請描述她看到的一切，並宣告變數與賦予值
 // 4-1. Alex 在等紅綠燈，他抬頭看一下現在是紅燈，還有 28 秒綠燈（最多 3 個宣告）
